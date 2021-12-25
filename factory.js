@@ -12,10 +12,4 @@ function createPerson(firstName, secondName) {
 }
 
 const personOne = createPerson('John', 'Smith');
-const personTwo = createPerson('Sarah', 'Smith');
-
-// Returns 'John Smith' object
-console.log(personOne);
-
-// Returns 'Sarah Smith' object
-console.log(personTwo);
+console.log(personOne.fullName());
